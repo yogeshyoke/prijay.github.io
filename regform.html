@@ -1,0 +1,100 @@
+<html>
+<head><title>Registration Form</title></head>
+<style>
+body{
+background-color:#1d94e5b3}
+.event{
+font-family:Chiller;
+font-size:50px;
+font-variant:bolder}
+p{padding:2px;margin:2px}
+form{text-align:center;margin:10px}
+legend {
+  background-color: #181c1e;
+  color: white;
+  padding: 5px 10px;
+}
+
+fieldset {
+  background-color: #0000004a;
+  border-color: #9E9E9E;
+  border-radius:2px
+}
+h{
+font-size:40px;
+font-weight:bolder}
+label{
+font-size:15px
+}
+
+</style>
+<body>
+<center><p class="h">KG COLLEGE OF ARTS AND SCIENCE<br> 
+<p class="h">Department Of Computer Science (PG) <br> 
+<p class="event">ZiYance <br> 
+<p class="h">Inter - Collegiate Function</center>
+<form>
+<fieldset>
+  <legend>Personalia:</legend>
+  <br>
+  <label>First name:</label>
+  <input type="text" name="fname">
+<br><br>
+  <label>Email:</label>
+  <input type="email"name="email">&nbsp;&nbsp;&nbsp;&nbsp;
+<label>Phone Number:</label>
+  <input type="tel"name="phno" pattern="[0-9]{10}" maxlength="10" minlength="10"><br><br>
+  <label>Gender:</label> <br>
+ 
+  <input type="radio" name="gen" value="Male">
+   <label>Male</label>
+  
+  <input type="radio"name="gen" value="Female">
+  <label>Female</label>
+ 
+  <input type="radio"name="gen" value="Other">
+   <label>Other</label>
+   <br><br>
+   </fieldset>
+   <br>
+   <fieldset>
+  <legend>Course Details</legend>
+  <br>
+  <label>College Name:</label>
+  <input type="text"name="clgname">
+  <label>Department</label>
+  <select><option>B.Sc CS</option>
+  <option>B.Sc CT</option>
+  <option>B.Sc IT</option>
+  <option>BCA</option>
+  <option>B.COM</option>
+  <option>BBA</option>
+  <option>M.Sc CS</option>
+  <option>MA </option>
+  <option>M.COM</option>
+  </select>
+  <label>Year of Study:</label>
+ <select><option>I</option>
+  <option>II</option>
+  <option>III</option>
+   </select>
+ </fieldset>
+ <br>
+ <fieldset>
+ <legend>Events</legend>
+ <br>
+ <label>Events</label>
+ <select>
+ <option>Quiz</option>
+ <option>Debugging</option>
+ <option>Connection</option>
+ <option>Web Designing</option>
+ <option>Poster Designing</option>
+ </select>
+ </fieldset>
+ <br><br>
+ 
+ <input type="submit">
+</form>
+</body>
+</html>
